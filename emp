@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Attendance System</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f5f7;
+    }
+    header {
+      background-color: #1d1e33;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin: 20px 0;
+    }
+    .btn {
+      background-color: #e74c3c;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #c0392b;
+    }
+    h2 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Employee Attendance System</h1>
+  </header>
+  <div class="container">
+    <div class="card">
+      <h2>Admin Dashboard</h2>
+      <p>Manage Employees, View Attendance, Export Reports</p>
+      <button class="btn" onclick="logout()">Logout</button>
+    </div>
+  </div>
+  <script>
+    function logout() {
+      alert("Logged out successfully");
+      // You can redirect or clear session here
+    }
+  </script>
+</body>
+</html>
